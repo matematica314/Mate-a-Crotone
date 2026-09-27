@@ -24,4 +24,19 @@ browser locale non è riuscito. La resa finale sferica, la continuità artistica
 delle giunzioni, le eventuali sovrapposizioni dell'interfaccia e l'esperienza
 su smartphone fisico restano da verificare sul sito pubblicato.
 I test del percorso usano un DOM simulato, non un motore di rendering HTML.
-I video non sono stati forniti: introduzione e finale testuali sono inclusi.
+Il video introduttivo è incluso; il finale è disponibile come testo.
+
+REVISIONE SUCCESSIVA
+Ripetuti con esito positivo i controlli sintattici e di percorso. Controllata
+visivamente una renderizzazione SVG dell'attestato. Verificati escaping del nome,
+accesso all'attestato a missione conclusa e limiti di zoom 105°/90°.
+Download e stampa richiedono ancora una prova nel browser reale.
+
+INTRODUZIONE VIDEO
+Video originale incluso senza ricodifica: H.264 con audio AAC, 568x320,
+circa 28 secondi. Controllati percorso locale, pulsanti per la missione testuale
+e per l'avvio del gioco, pulizia della modalità video all'uscita.
+Il video riempie la finestra con object-fit:cover e centratura 50% 50%.
+Avvio automatico con audio, schermo intero nativo e ritaglio sui vari dispositivi
+restano da collaudare in un browser reale. È previsto l'avvio tramite tocco
+quando il browser blocca l'autoplay.

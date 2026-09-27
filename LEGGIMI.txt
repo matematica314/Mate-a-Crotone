@@ -7,7 +7,7 @@ PUBBLICAZIONE
 3. La pagina iniziale si chiama index.html.
 4. Conserva esattamente i nomi dei file, con minuscole e trattini.
 Non servono compilazione, CDN, API, chiavi, database o servizi esterni.
-Non è necessario copiare le immagini caricate in chat: i panorami sono inclusi.
+Tutti i panorami e il video introduttivo sono inclusi.
 
 PER PROVARE DAL COMPUTER
 L'apertura diretta di index.html può bloccare le texture per le regole del browser.
@@ -17,13 +17,15 @@ un terminale nella cartella e avvia:
 Poi apri http://localhost:8000 nel browser.
 
 VIDEO DI PITAGORA E IPPASO
-Non sono inclusi filmati non ancora forniti dall'autrice. Introduzione e finale
-sono già giocabili come racconto testuale, senza segnaposto o video mancanti.
-Quando i filmati sono pronti:
-- carica intro-pitagora.mp4 e finale-ippaso.mp4 nella stessa cartella;
-- all'inizio di contenuti.js, in CONFIG, imposta:
-  introVideo:'intro-pitagora.mp4',finaleVideo:'finale-ippaso.mp4'
-Compariranno i pulsanti per riprodurli. Usa video locali, non link YouTube.
+Il video introduttivo intro.mp4 è incluso e configurato. Si apre a tutta finestra,
+centrato; sui display verticali viene ritagliato ai lati per riempire lo schermo.
+Se il browser blocca la riproduzione automatica con audio, tocca "Avvia il video
+con audio". Lo schermo intero nativo viene richiesto con questo tocco, dove
+supportato; negli altri casi il video occupa comunque tutta l'area dell'app.
+"Leggi la missione" apre la consegna testuale opzionale.
+Il finale resta testuale. Quando il filmato finale sarà pronto, carica
+finale-ippaso.mp4 nella stessa cartella e imposta in contenuti.js:
+  finaleVideo:'finale-ippaso.mp4'
 
 COMANDI
 Trascina con mouse o dito per guardarti intorno; rotellina, due dita e pulsanti
@@ -33,7 +35,7 @@ all'ingresso di una nuova scena. Il diario conserva ricompense e note.
 
 STRUTTURA DEL PERCORSO
 01 Benvenuto e missione: Ippaso rapito, ampolla destinata a una nave.
-02 Casa dei pitagorici: sei precetti da esplorare, ripresi dalla pagina fornita.
+02 Casa dei pitagorici: sei precetti da esplorare, presentati come tradizioni.
 03 Sassolini: numero triangolare casuale -> TUTTO.
 04 Coppie: pari/dispari -> È.
 05 Successioni: progressione aritmetica -> NUMERO.
@@ -64,15 +66,9 @@ u=0.5 è il centro orizzontale, v=0.5 è l'equatore. Le misure casuali sono
 sovrapposte dal codice: non sono stampate nelle immagini.
 
 NOTA DIDATTICA E STORICA
-Rapimento, ampolla e salvataggio sono invenzioni della storia. Le tradizioni su
-Ippaso e la morte in mare sono incerte. La fucina è una leggenda; i rapporti
-sonori vengono sperimentati con corde a tensione e caratteristiche uguali.
-Nomi delle note e pentagramma musicale sono strumenti moderni del gioco.
-Gli ambienti sono interpretazioni artistiche, non ricostruzioni archeologiche.
-Le regole del libro sono riprese come precetti tramandati: le spiegazioni
-originarie non vengono inventate. La costruzione 3-4-5 è illustrata come modello
-didattico, non come prova di una specifica pratica storica documentata.
-Fonti consultate sono accessibili anche dal menu dell'applicazione.
+L'avventura è una rielaborazione creativa di fonti storiche a fini didattici,
+con licenza poetica nella narrazione e nella rappresentazione degli ambienti
+e dei personaggi. Le fonti sono consultabili nel menu dell'applicazione.
 
 LICENZA E PRIVACY
 LICENSE.txt: licenza proprietaria basata sul testo fornito dall'autrice.
@@ -80,3 +76,15 @@ THIRD-PARTY-LICENSES.txt: licenza MIT del componente Three.js.
 PRIVACY.txt: informativa essenziale, accessibile anche nel menu.
 
 Test effettuati e limiti: vedere VERIFICA.txt.
+
+AGGIORNAMENTO — 27 settembre 2026
+- Testi delle schede e nomi degli hotspot ingranditi.
+- Solo nella casa dei pitagorici, zoom allontanabile fino a 105° (altrove 90°).
+- Sei nuove curiosità nella stanza delle successioni: due sulle successioni e
+  quattro sullo stile di vita tramandato dalla tradizione pitagorica.
+- Medaglione geometrico: pentagono regolare con pentagramma inscritto.
+- Testi dell'ampolla e del finale aggiornati.
+- Attestato personalizzabile a missione conclusa: PNG, SVG o stampa/salvataggio
+  PDF tramite il browser. Il nome non viene salvato nei progressi né trasmesso.
+- Nuovo file attestato.js: caricarlo insieme agli altri file.
+I salvataggi della prima versione restano compatibili.

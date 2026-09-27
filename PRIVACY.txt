@@ -20,3 +20,8 @@ Contatti dell'autrice: Claudia Bartoli — claudiabartoli77@libero.it
 
 Nota per la pubblicazione: se si aggiungono servizi di analisi, video incorporati,
 moduli o altri servizi esterni, aggiornare l'informativa prima di usarli.
+
+ATTESTATO FACOLTATIVO
+A missione conclusa è possibile inserire un nome per personalizzare l'attestato.
+Il nome è elaborato soltanto nel browser, non viene inviato a un server e non
+viene memorizzato nei progressi. Il file scaricato contiene il nome scelto.
