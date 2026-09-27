@@ -1,0 +1,82 @@
+MATE E IL VIAGGIO A CROTONE
+Un'avventura immersiva di Claudia Bartoli con Mate e Matica
+
+PUBBLICAZIONE
+1. Estrai lo ZIP.
+2. Carica TUTTI i file estratti allo stesso livello nel tuo repository o sito.
+3. La pagina iniziale si chiama index.html.
+4. Conserva esattamente i nomi dei file, con minuscole e trattini.
+Non servono compilazione, CDN, API, chiavi, database o servizi esterni.
+Non è necessario copiare le immagini caricate in chat: i panorami sono inclusi.
+
+PER PROVARE DAL COMPUTER
+L'apertura diretta di index.html può bloccare le texture per le regole del browser.
+È preferibile il sito pubblicato. In alternativa, con Python installato, apri
+un terminale nella cartella e avvia:
+  python -m http.server 8000
+Poi apri http://localhost:8000 nel browser.
+
+VIDEO DI PITAGORA E IPPASO
+Non sono inclusi filmati non ancora forniti dall'autrice. Introduzione e finale
+sono già giocabili come racconto testuale, senza segnaposto o video mancanti.
+Quando i filmati sono pronti:
+- carica intro-pitagora.mp4 e finale-ippaso.mp4 nella stessa cartella;
+- all'inizio di contenuti.js, in CONFIG, imposta:
+  introVideo:'intro-pitagora.mp4',finaleVideo:'finale-ippaso.mp4'
+Compariranno i pulsanti per riprodurli. Usa video locali, non link YouTube.
+
+COMANDI
+Trascina con mouse o dito per guardarti intorno; rotellina, due dita e pulsanti
++/- per lo zoom; frecce della tastiera per ruotare. Le aree cliccabili sono
+trasparenti. "Mostra curiosità" rende visibili indicazioni e nomi; torna invisibile
+all'ingresso di una nuova scena. Il diario conserva ricompense e note.
+
+STRUTTURA DEL PERCORSO
+01 Benvenuto e missione: Ippaso rapito, ampolla destinata a una nave.
+02 Casa dei pitagorici: sei precetti da esplorare, ripresi dalla pagina fornita.
+03 Sassolini: numero triangolare casuale -> TUTTO.
+04 Coppie: pari/dispari -> È.
+05 Successioni: progressione aritmetica -> NUMERO.
+06 Porta: ricomposizione del motto -> pentagono stellato.
+07 Fucina: sei risorse, fra leggenda e rapporti musicali, ascolti sintetizzati.
+08 Sette quesiti -> DO RE MI FA SOL LA SI -> pentagramma musicale.
+09 Riva e tempio: cinque risorse su terne, triangoli e teorema.
+10 Scelta della corda chiusa: cateti noti, individua il perimetro -> RADICE.
+11 Triangolo: domanda casuale su cateti, ipotenusa, angolo retto -> DI.
+12 Passaggio: cateti noti, calcola l'ipotenusa.
+13 Piazza: leggi il cartello; diagonale o due lati, e risparmio con √2 ≈ 1,41.
+14 Muro: scala e altezza note, scegli la distanza corretta -> DUE, Ippaso libero.
+15 Spiaggia: significato della radice di due, finale e distinzione storia/fiaba.
+
+ERRORI E SALVATAGGIO
+Una risposta errata riporta alla tappa precedente, da ripetere/riesplorare.
+I premi già conquistati e le note restano acquisiti. I dati delle prove ripetute
+vengono rigenerati. I progressi sono salvati localmente, senza registrazione.
+Non c'è conto alla rovescia né punizione legata alla velocità di lettura.
+
+MODIFICARE I CONTENUTI
+contenuti.js: testi, coordinate degli hotspot, scena iniziale, email e video.
+app.js: logica degli enigmi e generatori di varianti numeriche.
+stile.css: aspetto e adattamento allo schermo.
+panorama-viewer.js e three.min.js: visualizzazione sferica.
+Le coordinate u,v degli hotspot sono percentuali dell'immagine originale:
+u=0.5 è il centro orizzontale, v=0.5 è l'equatore. Le misure casuali sono
+sovrapposte dal codice: non sono stampate nelle immagini.
+
+NOTA DIDATTICA E STORICA
+Rapimento, ampolla e salvataggio sono invenzioni della storia. Le tradizioni su
+Ippaso e la morte in mare sono incerte. La fucina è una leggenda; i rapporti
+sonori vengono sperimentati con corde a tensione e caratteristiche uguali.
+Nomi delle note e pentagramma musicale sono strumenti moderni del gioco.
+Gli ambienti sono interpretazioni artistiche, non ricostruzioni archeologiche.
+Le regole del libro sono riprese come precetti tramandati: le spiegazioni
+originarie non vengono inventate. La costruzione 3-4-5 è illustrata come modello
+didattico, non come prova di una specifica pratica storica documentata.
+Fonti consultate sono accessibili anche dal menu dell'applicazione.
+
+LICENZA E PRIVACY
+LICENSE.txt: licenza proprietaria basata sul testo fornito dall'autrice.
+THIRD-PARTY-LICENSES.txt: licenza MIT del componente Three.js.
+PRIVACY.txt: informativa essenziale, accessibile anche nel menu.
+
+Test effettuati e limiti: vedere VERIFICA.txt.

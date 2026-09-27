@@ -1,0 +1,27 @@
+VERIFICHE DELLA VERSIONE — 27 settembre 2026
+
+SUPERATE
+- Controllo sintattico dei tre file JavaScript dell'applicazione.
+- 3.500 estrazioni di varianti numeriche: formule, arrotondamenti,
+  unicità della corda corretta e delle quattro distanze della scala.
+- Simulazione del percorso completo eseguendo il codice JavaScript con un
+  ambiente DOM simulato: risorse, domande, sette note, indizi e sblocchi.
+- Errori con ritorno alla tappa precedente, riesplorazione obbligatoria,
+  conservazione dei premi e nuova lettura del cartello con nuovi dati.
+- Verifica che il replay dell'introduzione non salti tappe del gioco.
+- Salvataggio serializzato dei progressi.
+- Corrispondenza fra coordinate UV della sfera Three.js e coordinate hotspot;
+  controllo matematico contro l'inversione orizzontale.
+- Presenza di tutti gli script, fogli di stile e immagini referenziati.
+- Decodifica dei 15 panorami WebP e rapporto esatto 2:1 (1774 x 887 pixel).
+- Ispezione visiva dei panorami originali e collocazione degli hotspot sui
+  relativi oggetti, usando le coordinate dell'immagine.
+
+LIMITI DELLA VERIFICA
+Non è stato possibile eseguire un collaudo visivo interattivo in un browser:
+il browser disponibile non può raggiungere il server locale e il download del
+browser locale non è riuscito. La resa finale sferica, la continuità artistica
+delle giunzioni, le eventuali sovrapposizioni dell'interfaccia e l'esperienza
+su smartphone fisico restano da verificare sul sito pubblicato.
+I test del percorso usano un DOM simulato, non un motore di rendering HTML.
+I video non sono stati forniti: introduzione e finale testuali sono inclusi.
