@@ -23,7 +23,11 @@ Se il browser blocca la riproduzione automatica con audio, tocca "Avvia il video
 con audio". Lo schermo intero nativo viene richiesto con questo tocco, dove
 supportato; negli altri casi il video occupa comunque tutta l'area dell'app.
 "Leggi la missione" apre la consegna testuale opzionale.
-Il finale resta testuale. Quando il filmato finale sarà pronto, carica
+Il finale comprende il testo e un lettore audio già predisposto: aggiungi la tua
+registrazione con il nome esatto ippaso.mp3 nella stessa cartella di index.html.
+Non devi modificare il codice. Il file audio non è incluso; se manca, il testo
+resta disponibile. La riproduzione parte solo su richiesta, con controlli propri.
+Quando il filmato finale sarà pronto, carica
 finale-ippaso.mp4 nella stessa cartella e imposta in contenuti.js:
   finaleVideo:'finale-ippaso.mp4'
 
@@ -79,7 +83,7 @@ Test effettuati e limiti: vedere VERIFICA.txt.
 
 AGGIORNAMENTO — 27 settembre 2026
 - Testi delle schede e nomi degli hotspot ingranditi.
-- Solo nella casa dei pitagorici, zoom allontanabile fino a 105° (altrove 90°).
+- Nella casa dei pitagorici e nella stanza del triangolo, zoom fino a 105° (altrove 90°).
 - Sei nuove curiosità nella stanza delle successioni: due sulle successioni e
   quattro sullo stile di vita tramandato dalla tradizione pitagorica.
 - Medaglione geometrico: pentagono regolare con pentagramma inscritto.
@@ -88,3 +92,11 @@ AGGIORNAMENTO — 27 settembre 2026
   PDF tramite il browser. Il nome non viene salvato nei progressi né trasmesso.
 - Nuovo file attestato.js: caricarlo insieme agli altri file.
 I salvataggi della prima versione restano compatibili.
+
+REVISIONE CELLULARE E AUDIO
+- X per nascondere la missione; pulsante Missione per riaprirla. La scelta resta
+  valida passando tra le scene fino al ricaricamento della pagina.
+- Tre hotspot delle successioni distanziati anche in altezza.
+- La formula della scala appare solo nel feedback di risposta errata.
+- Il premio pentagramma suona DO RE MI FA SOL LA SI, se i suoni sono attivi.
+- Lettore finale predisposto per ippaso.mp3 (da aggiungere a cura dell'autrice).

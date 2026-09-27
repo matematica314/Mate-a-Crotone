@@ -19,3 +19,10 @@
 #modal.video-intro #modalActions button{pointer-events:auto;box-shadow:0 3px 12px #0008}
 #introVideoStatus{position:absolute;left:10%;right:10%;bottom:145px;text-align:center;color:white;text-shadow:0 2px 8px #000;font-size:16px}
 @media(max-width:650px){#modal.video-intro #modalActions button{flex-grow:0;font-size:14px;padding:10px 12px}.intro-play{font-size:16px}#introVideoStatus{bottom:155px;font-size:14px}}
+
+/* Missione richiudibile e ascolto finale. */
+.mission{position:relative;padding-right:52px}
+#hideMission{position:absolute;right:4px;top:2px;width:44px;height:44px;padding:0;border:0;background:transparent;font-size:28px}
+.ippaso-audio label{display:block;color:var(--gold);margin-bottom:10px}
+.ippaso-audio audio{display:block;width:100%;margin:8px 0}
+@media(max-width:650px){.mission{padding-right:48px}.show-spots .spot .spot-label{max-width:140px}}

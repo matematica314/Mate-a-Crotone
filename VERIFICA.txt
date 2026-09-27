@@ -40,3 +40,9 @@ Il video riempie la finestra con object-fit:cover e centratura 50% 50%.
 Avvio automatico con audio, schermo intero nativo e ritaglio sui vari dispositivi
 restano da collaudare in un browser reale. È previsto l'avvio tramite tocco
 quando il browser blocca l'autoplay.
+
+Revisione cellulare/audio: controllati tramite DOM simulato la chiusura e
+riapertura della missione, l'assenza della formula prima della risposta,
+la sequenza dei sette suoni e il messaggio di ripiego per ippaso.mp3 mancante.
+Ricontrollato il percorso completo. Non eseguito un test visivo in browser
+mobile né un ascolto su dispositivo: da verificare sul sito pubblicato.
